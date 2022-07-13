@@ -3,6 +3,8 @@
 // creare una classe di un singolo utente
 // attribbuti: nome cognome dataNascita
 
+//la nostra classe va messa in un file separato come se fosse un data base
+//e richiamato nel file tramite un require_once(questo va sempre usato)
 class User {
     public $titolo = "Sig.";
     public $nome;
